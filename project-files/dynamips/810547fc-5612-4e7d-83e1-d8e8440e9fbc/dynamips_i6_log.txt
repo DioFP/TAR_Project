@@ -1,0 +1,51 @@
+Dec 05 16:08:20.127 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 05 16:08:20.127 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55553.
+Dec 05 16:08:20.136 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 05 16:08:20.138 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/projeto/project-files/dynamips 
+Dec 05 16:08:20.138 GENERAL: working_dir=/home/user/GNS3/projects/projeto/project-files/dynamips
+Dec 05 16:08:20.138 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/projeto/project-files/dynamips/c841146a-1edb-4d06-a12f-5a1ef5d0876b 
+Dec 05 16:08:20.138 GENERAL: working_dir=/home/user/GNS3/projects/projeto/project-files/dynamips/c841146a-1edb-4d06-a12f-5a1ef5d0876b
+Dec 05 16:08:20.138 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Dec 05 16:08:20.139 VM: VM R4 created.
+Dec 05 16:08:20.139 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5009 
+Dec 05 16:08:20.139 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Dec 05 16:08:20.140 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:20.140 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Dec 05 16:08:20.140 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Dec 05 16:08:20.141 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:20.141 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x64f18054 
+Dec 05 16:08:20.141 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Dec 05 16:08:20.142 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.0c62.0000 
+Dec 05 16:08:20.142 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Dec 05 16:08:20.143 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Dec 05 16:08:20.144 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:20.144 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-FE-TX 
+Dec 05 16:08:20.146 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:20.146 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Dec 05 16:08:20.147 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:20.147 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Dec 05 16:08:20.148 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5009 
+Dec 05 16:08:34.940 HYPERVISOR: exec_cmd: nio create_udp udp-7599d15e-5d87-4c8e-b037-82b7507a4be6 10112 127.0.0.1 10113 
+Dec 05 16:08:35.156 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-7599d15e-5d87-4c8e-b037-82b7507a4be6 
+Dec 05 16:08:35.156 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:35.606 HYPERVISOR: exec_cmd: nio create_udp udp-4e8a3e8e-9819-481b-9849-f9b8abc68690 10116 127.0.0.1 10117 
+Dec 05 16:08:35.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-4e8a3e8e-9819-481b-9849-f9b8abc68690 
+Dec 05 16:08:35.608 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:36.977 HYPERVISOR: exec_cmd: nio create_udp udp-8f0097eb-6547-4b31-bad0-bc955a213c61 10128 127.0.0.1 10129 
+Dec 05 16:08:36.980 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-8f0097eb-6547-4b31-bad0-bc955a213c61 
+Dec 05 16:08:36.981 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:38.400 HYPERVISOR: exec_cmd: nio create_udp udp-bfe47c9a-b272-4291-82ba-e370bac76725 10140 127.0.0.1 10141 
+Dec 05 16:08:38.403 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 1 udp-bfe47c9a-b272-4291-82ba-e370bac76725 
+Dec 05 16:08:38.404 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 16:08:43.181 HYPERVISOR: exec_cmd: nio create_udp udp-b4d5adc8-4143-4574-97a6-738afbecea2b 10192 127.0.0.1 10193 
+Dec 05 16:08:43.182 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 0 udp-b4d5adc8-4143-4574-97a6-738afbecea2b 
+Dec 05 16:08:43.183 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 17:29:42.011 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 17:29:42.012 HYPERVISOR: exec_cmd: vm extract_config R4 
+Dec 05 17:29:42.541 HYPERVISOR: exec_cmd: vm get_status R4 
+Dec 05 17:29:42.543 HYPERVISOR: exec_cmd: vm extract_config R4 
+Dec 05 17:29:42.543 HYPERVISOR: exec_cmd: vm delete R4 
+Dec 05 17:29:42.543 VM: VM R4 destroyed.
+Dec 05 17:29:42.544 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 05 17:29:42.983 HYPERVISOR: Stopped.
+Dec 05 17:29:42.983 GENERAL: reset done.
