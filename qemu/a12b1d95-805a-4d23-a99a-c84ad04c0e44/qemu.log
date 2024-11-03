@@ -1,4 +1,0 @@
-Start QEMU with /bin/qemu-system-x86_64 -name PC3 -m 256M -smp cpus=1,sockets=1 -boot order=c -drive file=/home/user/GNS3/projects/projeto/project-files/qemu/a12b1d95-805a-4d23-a99a-c84ad04c0e44/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid a12b1d95-805a-4d23-a99a-c84ad04c0e44 -serial telnet:127.0.0.1:5028,server,nowait -monitor tcp:127.0.0.1:36631,server,nowait -net none -device e1000,mac=0c:2b:1d:95:00:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10245,localaddr=127.0.0.1:10244 -display none
-
-Execution log:
-qemu-system-x86_64: terminating on signal 15 from pid 2942 (/usr/share/gns3/gns3-server/bin/python)
